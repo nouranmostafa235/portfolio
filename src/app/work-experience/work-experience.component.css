@@ -1,0 +1,31 @@
+.exper{
+    background-color: #22252c;
+}
+.education{
+    color: #00f29c; 
+    background-image: linear-gradient(45deg, #00f29c 20%, #29FFC6 50%, #0CEBEB 60%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: 700;
+    font-size: 45px;
+}
+.line{
+    background-color: #00d7bb;
+    height: 4px;
+    width: 50%;
+}
+.degree{
+    color: #00d7bb;
+    font-weight: 600;
+    font-size: 20px;
+}
+.date{
+    color: white;
+    font-size: 14px;
+}
+.text-white h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+

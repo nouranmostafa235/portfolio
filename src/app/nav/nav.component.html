@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg fixed-top initial-visible" [class.start-animate]="animateOnScroll">
+    <div class="container">
+        <div  class="navbar-brand">
+            <a target="_blank" href="https://www.linkedin.com/in/nouran-mostafa-84b072220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="me-3 text-white"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a target="_blank" href="https://github.com/nouranmostafa235" class="me-3 text-white"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://wa.me/+201159377821" class="me-3 text-white"><i class="fa-brands fa-whatsapp"></i></a>
+            <a target="_blank" href="mailto:nourmostafa2197@gmail.com" class="me-3 text-white"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active text-white" href="#home" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white"  href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#edu">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <app-home id="home"></app-home>
+    <app-about id="about"></app-about>
+    <app-education id="edu"></app-education>
+    <app-work-experience id="experience"></app-work-experience>
+    <app-skills id="skills"></app-skills>
+    <app-projects id="projects"></app-projects>
+    <app-contacts id="contacts"></app-contacts>
+  </div>

@@ -1,0 +1,68 @@
+.skills{
+    background-color: #313741;
+}
+.education{
+    color: #00f29c; 
+    background-image: linear-gradient(45deg, #00f29c 20%, #29FFC6 50%, #0CEBEB 50%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: 700;
+    font-size: 45px;
+}
+.progress{
+    height: 6px;
+    background-color: #0f1012;
+     position: relative;
+    overflow: visible ;
+}
+.progress-bar{
+    background-color: #00d7bb; 
+}
+
+.html::after , .css::after ,.js::after, .tailwind::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00d7bb;
+    position: absolute;
+    right: 10%;
+}
+
+.ts::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00d7bb;
+    position: absolute;
+    right: 20%;
+}
+.angular::after , .cli::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00d7bb;
+    position: absolute;
+    right: 25%;
+}
+.api::after , .git::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00d7bb;
+    position: absolute;
+    right: 30%;
+}
+.testing::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00d7bb;
+    position: absolute;
+    right: 40%;
+}

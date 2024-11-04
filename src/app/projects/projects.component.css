@@ -1,0 +1,57 @@
+.projects{
+    background-color: #22252c;
+}
+.education{
+    color: #00f29c; 
+    background-image: linear-gradient(45deg, #00f29c 20%, #29FFC6 50%, #0CEBEB 60%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: 700;
+    font-size: 45px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.image{
+    height: 200px;
+    cursor: pointer;
+}
+.layer{
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(0.01);
+    opacity: 0;
+}
+.fs-2 , .fs-3{
+    color: #02cfb4;
+}
+.card-body{
+    background-color: #313741;
+    color: aliceblue;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #02cfb4;
+    transition: all 0.8s;
+}
+.icons:hover{
+    background-color: #02CFB4;
+}
+.icons:hover .fs-2, .icons:hover .fs-3{
+    color: white;
+}
+.layer{
+    transition: all 0.4s;
+}
+.image:hover .layer{
+  opacity: 1;
+   transform: scale(1);
+}
+.card-text span{
+    color:  #02CFB4;
+    font-size: 20px;
+    font-weight: 700;
+}

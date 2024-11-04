@@ -1,0 +1,38 @@
+.home {
+    background-image: url(../../assets/imgs/web.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.layer {
+    background: rgba(12, 235, 235, 0.8);
+    background: -webkit-linear-gradient(to right, rgba(41, 255, 198, 0.8), rgba(32, 227, 178, 0.8), rgba(12, 235, 235, 0.8));
+    background: linear-gradient(to right, rgba(41, 255, 198, 0.8), rgba(32, 227, 178, 0.8), rgba(12, 235, 235, 0.8));
+}
+.hello{
+    font-weight: 300;
+    font-size: 120px;
+    line-height: 132px;
+}
+.name{
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 92px;
+    --animate-delay: 0.5s;
+}
+h4{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+
+}
+
+.initial-visible {
+    opacity: 1;
+    transform: translateX(0); 
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.start-animate {
+    transform: translateX(-600px);
+}
