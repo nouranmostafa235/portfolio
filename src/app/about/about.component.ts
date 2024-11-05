@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   downloadFile() {
-    const fileUrl = 'https://drive.google.com/uc?export=download&id=1GADU4VaZ0nXXoaXh3lIzfUF0B05cnY9k';
+    const fileUrl = 'https://drive.google.com/uc?export=download&id=156E8_HxAjIJ4oBR-Vwn72o1nBubxOGTg';
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'NouranMostafa_Front-End Developer.pdf';
